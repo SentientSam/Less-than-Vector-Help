@@ -29,5 +29,5 @@ int main()
   }
   cout << "\nInput Size: " << Vector.size(); // These lines just post the sizes for the heck of it.
   cout << "\nOutput Size: " << OutputVector.size() << endl;
-
+  Vector = OutputVector; // Replaces the origional vector with your new vector. Only needed if the og vector needs to be returned.
 }
